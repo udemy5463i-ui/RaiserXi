@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Components</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  <style>
+    .icon-square {   width: 3rem; height: 3rem; border-radius: .75rem;}
+    #carouselExampleIndicators{
+      margin-left: 15%;
+      margin-right: 15%;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <img src="controller.svg" alt="controller" height="36px" style="padding-right: 5px;">
+    <a class="navbar-brand" href="#" style="padding-bottom: 9px;">Raiser</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Ring
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Tarnished</a></li>
+            <li><a class="dropdown-item" href="#">Elden Lord</a></li>
+            <li><a class="dropdown-item" href="#">Elden Ring</a></li>
+          </ul>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<div class="px-4 py-5 my-5 text-center"> 
+  <img class="d-block mx-auto mb-4" src="Night.jpg" alt="" width="1280" height="720"> 
+  <h1 class="display-5 fw-bold text-body-emphasis">Nightreign</h1> <div class="col-lg-6 mx-auto"> 
+    <p class="lead mb-4"><span style="font-weight: bold;">Wylder:</span> A versatile knight who uses a grappling hook to pull enemies closer or rapidly close the gap himself. He is a good starting class for players who are unsure which character to pick.</p> 
+    <div class="d-grid gap-2 d-sm-flex justify-content-sm-center"> 
+      <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Raider</button> 
+      <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Onslaught</button> 
+    </div> 
+  </div> 
+</div>
+
+<div class="container px-4 py-5" id="Characters"> 
+  <h2 class="pb-2 border-bottom">Nightfarer</h2> 
+  <div class="row g-4 py-5 row-cols-1 row-cols-lg-3"> 
+    <div class="col d-flex align-items-start"> 
+      <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3"> 
+        <img src="Revenant.jpg" alt="Revenant" height="44px" style="border: solid 1px; border: none; border-radius: 10px;">
+      </div> 
+      <div> 
+        <h3 class="fs-2 text-body-emphasis">Revenant</h3> 
+        <p>Revenant is a summoner class that uses necromancy to summon ghostly allies into battle. Picking your Nightfarer or Class can be considered the most important choice players make at the start of the game, since their decision will impact their gameplay and style of play.</p> 
+        <a href="#" class="btn btn-primary">More info</a> 
+      </div> 
+    </div> 
+    <div class="col d-flex align-items-start"> 
+      <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3"> 
+        <img src="Duchess.jpg" alt="Duchess" height="44px" style="border: solid 1px; border: none; border-radius: 10px;">
+      </div> 
+      <div> 
+        <h3 class="fs-2 text-body-emphasis">Duchess</h3> 
+        <p>Duchess is an agile, dexterity-based class that deals quick strikes and moves around the battlefield. Nightfarers are predetermined classes that fulfill a different archetype within the game. Picking your Nightfarer or Class can be considered the most important choice players make at the start of the game.</p> 
+        <a href="#" class="btn btn-primary">More info</a> 
+</div> 
+</div> 
+<div class="col d-flex align-items-start"> 
+  <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3"> 
+    <img src="Recluse.jpg" alt="Recluse" height="44px" style="border: solid 1px; border: none; border-radius: 10px;">
+  </div> 
+  <div> 
+    <h3 class="fs-2 text-body-emphasis">Recluse</h3> 
+    <p>Recluse is a spell-caster type of character. Nightfarers are predetermined classes that fulfill a different archetype within the game. Picking your Nightfarer or Class can be considered the most important choice players make at the start of the game, since their decision will impact their gameplay and style of play</p> 
+    <a href="#" class="btn btn-primary">More info</a> 
+</div> 
+</div> 
+</div> 
+</div>
+
+<div id="carouselExampleIndicators" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="Malenia.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="Ranni.jpeg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="Wolf.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"> 
+  <div class="col-md-4 d-flex align-items-center"> 
+    <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1" aria-label="Bootstrap"> 
+    <svg class="bi" width="30" height="24" aria-hidden="true"><use xlink:href="#bootstrap"></use></svg> 
+  </a> 
+    <span class="mb-3 mb-md-0 text-body-secondary">© 2025 Raiser, Inc</span> 
+  </div> 
+  <ul class="nav col-md-4 justify-content-end list-unstyled d-flex"> 
+    <li class="ms-3">
+      <a class="text-body-secondary" href="#" aria-label="Youtube">
+        <img src="youtube.svg" alt="Youtube" height="20px">
+      </svg>
+    </a>
+    </li> 
+      <li class="ms-3"><a class="text-body-secondary" href="#" aria-label="Instagram">
+        <img src="instagram.svg" alt="instagram" height="20px" style="margin-right: 50px;">
+      </a>
+    </li> 
+</ul> 
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+
+</html>
